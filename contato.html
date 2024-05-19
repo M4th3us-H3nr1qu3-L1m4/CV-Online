@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="imagens/Coffee-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+
+    <!--Menu de Páginas-->
+
+    <nav>
+        <a target="_blank" href="aboutme.html">Sobre mim</a>
+        |
+        <a target="_blank" href="academic.html">Formação acadêmica</a>
+        |
+        <a target="_blank" href="portfolio.html">Portfólio</a>
+        |
+        <a target="_blank" href="contato.html">Contato</a>
+    </nav>
+
+    <!--Logo de Apresentação-->
+
+    <header>
+        <div class="links">
+            <img src="imagens/Mail-2-icon.png" alt="contato-icon">
+            <h2 class="sobre">Contato</h2>
+        </div>
+        <h2 class="ML">Matheus Lima</h2>
+        <p class="EES">Estudante de Engenharia de Software</p>
+    </header>
+
+    <!--E-mail e redes sociais-->
+
+    <main>
+        <!--E-mail-->
+        <div class="email">
+            <img src="imagens/Communication-email-icon.png" alt="E-mail" id="email">
+            <p>se.matheushls@gmail.com</p>
+        </div>
+        <!--Linkedin-->
+        <div class="linkedin">
+            <img src="imagens/linkedin-icon.png" alt="linkedin" id="linkedin">
+            <p><a target="_blank" href="https://www.linkedin.com/in/devsematheuslima">Matheus Lima</a></p>
+        </div>
+        <!--Github-->
+        <div class="github">
+            <img src="imagens/github-icon.png" alt="github" id="github">
+            <p><a target="_blank" href="https://github.com/M4th3us-H3nr1qu3-L1m4">M4th3us-H3nr1qu3-L1m4</a></p>
+        </div>
+        <!--Instagram-->
+        <div class="instagram">
+            <img src="imagens/Hover-Instagram-3-icon.png" alt="instagram" id="instagram">
+            <p><a target="_blank" href="https://www.instagram.com/l1m4s0uz4/">l1m4s0uz4</a></p>
+        </div>
+    </main>
+
+    <!--Formulário-->
+
+    <section>
+        <h1>Formulário</h1>
+        <p>Nome: <input type="text" name="txtnome" id="txtnome"></p>
+        <p>E-mail: <input type="text" name="txtemail" id="txtemail"></p>
+        <input type="text" name="txt" value="Digite sua mensagem" id="txt">
+        <input type="button" value="Enviar" onclick="msg()" id="enviar">
+        <p id="feedback" style="display:none;"></p>
+    </section>
+    <script src="script.js"></script>
+
+    <!--Voltar-->
+
+    <footer>
+        <p id="voltar"><a href="index.html">Voltar</a></p>
+    </footer>
+</body>
+</html>

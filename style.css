@@ -1,0 +1,91 @@
+body {
+  background-image: url(imagens/brickwall.png);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Configuração da logo e menu de páginas */
+
+.ML {
+  padding-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.EES {
+  padding-left: 10px;
+  margin-top: 21px;
+  margin-bottom: 0px;
+}
+
+nav {
+  margin-left: auto;
+  text-align: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+a:hover {
+  color: #9D989C;
+}
+
+a:active {
+  color: blue;
+}
+
+/* Configuração da Apresentação */
+
+#helloworld {
+  border-radius: 100%;
+  width: 400px;
+  height: auto;
+  padding-left: 150px; /*A ideia era deixar em círculo perfeito usando margin-left, mas achei que ficou interrasente em formato irregular*/
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 70px;
+}
+
+.descricao {
+  margin-left: 20px;
+}
+
+/* Configuração menu de páginas em ícones */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutme {
+  padding-right: 15px;
+}  
+
+#academic {
+  padding-right: 30px;
+}
+
+#works {
+  padding-right: 35px;
+}

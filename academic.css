@@ -1,0 +1,132 @@
+body {
+    background-image: url(imagens/brickwall.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+  }
+
+header {
+    margin-left: 15px;
+}
+
+/* Configuração Menu de páginas e logo de apresentação */
+
+.links {
+    display: flex;
+}
+
+.sobre {
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+ } 
+
+nav {
+    margin-left: auto;
+    text-align: right;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  main {
+    margin: 15px;
+}
+  
+a:hover {
+    color: #9D989C;
+}
+  
+a:active {
+    color: blue;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+/* Configuração gostos e Hobbies */
+
+.f1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Configuração Ensino fundamental e médio */
+
+#formacao {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.txtensino {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configuração idiomas */
+
+#idioms {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.txtidioms {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configuração gostos e Hobbies */
+
+.f2 {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 75px;
+}
+
+/* Configuração ensino superior */
+
+#bacharel {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.txtbacharel {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configuração extracurriculares*/
+
+#aprender {
+    box-shadow: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.txtaprender {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configuração Voltar */
+
+footer {
+    margin-left: 15px;
+}
+
+#voltar {
+    text-align: right;
+}
+
+#voltar a {
+    color: blue;
+    text-decoration: underline;
+}

@@ -1,0 +1,143 @@
+body {
+    background-image: url(imagens/brickwall.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+  }
+
+header {
+    margin-left: 15px;
+}
+
+/* Configuração Menu de páginas e logo de apresentação */
+
+.links {
+    display: flex;
+}
+
+.sobre {
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+ } 
+
+nav {
+    margin-left: auto;
+    text-align: right;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    color: inherit;
+    margin: 0;      
+    padding: 0;
+  }
+  
+a:hover {
+    color: #9D989C;
+}
+  
+a:active {
+    color: blue;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+/* Configuração Projetos */
+
+main {
+    margin: 15px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Configuração Projeto One Piece */
+
+.projeto-onepiece {
+    display: flex;
+    align-items: flex-start;
+}
+
+#OnePiece {
+    margin-right: 20px;
+    margin-top: 17px;
+}
+
+.txtOnePiece {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configuração Projeto ODS ONU */
+
+.projeto-onu {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 75px;
+}
+
+#boaacao {
+    margin-right: 20px;
+    margin-top: 17px;
+}
+
+.txtboaacao {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configuração Projeto Metaverso */
+
+.projeto-metaverso {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+#metaverso {
+    margin-right: 20px;
+    margin-top: 17px;
+}
+
+.txtmetaverso {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configuração Projeto Scratch */
+
+.projeto-scratch {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 90px;
+}
+
+#CS50-Scratch {
+    margin-right: 20px;
+    margin-top: 17px;
+}
+
+.txtcs50scratch {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configuração Voltar */
+
+#voltar {
+    text-align: right;
+}
+
+#voltar a {
+    color: blue;
+    text-decoration: underline;
+}

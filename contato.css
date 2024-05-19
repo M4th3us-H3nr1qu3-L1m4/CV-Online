@@ -1,0 +1,164 @@
+body {
+    background-image: url(imagens/brickwall.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+  }
+
+header {
+    margin-left: 15px;
+}
+
+/* Configuração Menu de páginas e logo de apresentação */
+
+.links {
+    display: flex;
+}
+
+.sobre {
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+ } 
+
+nav {
+    margin-left: auto;
+    text-align: right;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+/* Configuração E-mail e redes sociais */
+
+main {
+    margin: 15px;
+}
+
+main a:hover {
+    color: blue;
+}
+
+main a:active {
+    color: gray;
+}
+  
+a:hover {
+    color: #9D989C;
+}
+  
+a:active {
+    color: blue;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.email {
+    display: flex;
+    align-items: flex-start;
+}
+
+#email {
+    box-shadow: none;
+    margin-right: 10px;
+}
+
+.linkedin {
+    display: flex;
+    align-items: flex-start;
+}
+
+#linkedin {
+    box-shadow: none;
+    margin-right: 2px;
+}
+
+.github {
+    display: flex;
+    align-items: flex-start;
+}
+
+#github {
+    box-shadow: none;
+    margin-top: 5px;
+}
+
+.instagram {
+    display: flex;
+    align-items: flex-start;
+}
+
+#instagram {
+    box-shadow: none;
+    margin-top: 10px;
+}
+
+/* Configuração Formulário*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: 30px 350px 10px 350px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+#txtnome {
+    width: 100%;
+    max-width: 300px;
+    padding: 6px 6px 6px 6px;
+    margin-top: 5px;
+    margin-right: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#txtemail {
+    width: 100%;
+    max-width: 300px;
+    padding: 6px 6px 6px 6px;
+    margin-top: 5px;
+    margin-right: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#txt {
+    padding: 4px 210px 150px 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+
+#enviar {
+    margin-right: 185px;
+    margin-top: 15px;
+}
+
+#feedback {
+    margin-right: 20px;
+}
+
+/* Configuração Voltar*/
+
+#voltar {
+    text-align: right;
+}
+
+#voltar a {
+    color: blue;
+    text-decoration: underline;
+}
